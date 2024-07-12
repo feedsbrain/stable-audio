@@ -9,7 +9,6 @@ from stable_audio_tools.inference.generation import generate_diffusion_cond
 # output path
 file_path = f"./outputs/{uuid4()}.wav"
 
-
 # get torch device
 def get_torch_device():
   # Check available devices
